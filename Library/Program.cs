@@ -1,4 +1,15 @@
 using Library;
+List<Book> books = new List<Book>();
+List<Member> members = new List<Member>();
+
+books.Add(new Book("C# For Beginners", "Bill Gates", "1234567"));
+books.Add(new Book("Ultimate C#", "Microsoft", "2233445"));
+
+members.Add(new Member(1, "John Smith", "1 High Street", "0790090090"));
+members.Add(new Member(2, "Mary Jones", "102 Garden Road", "0790345666");
+
+    
+
 
 Book book = new Book();
 // This information is for one book in our library
@@ -25,4 +36,5 @@ Member member1 = new Member(2, "Mary Jones", "102 Garden Road", 0790345666);
 Console.WriteLine("Current library members");
 member.DisplayInfo();
 member1.DisplayInfo();
+     
 
